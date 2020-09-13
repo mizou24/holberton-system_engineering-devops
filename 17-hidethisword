@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo grep -v "bin" /etc/passwd
+

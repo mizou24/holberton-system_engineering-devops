@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo grep -A3 -E "root" /etc/passwd 
+
