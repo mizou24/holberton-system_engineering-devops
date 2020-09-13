@@ -1,7 +1,2 @@
 #!/bin/bash
-OUTPUT=$(ls -la)
-if [ ! -f 'ls_cwd_content' ]
-then
-    echo "${OUTPUT}" > ls_cwd_content
-fi
-
+if [ ! -f 'ls_cwd_content' ] then echo "$(ls -la)" > ls_cwd_content fi

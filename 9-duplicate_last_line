@@ -1,4 +1,2 @@
 #!/bin/bash
-OUTPUT=$(tail -n 1 ./iacta)
-echo "${OUTPUT}"  >> iacta
-
+echo "$(tail -n 1 ./iacta)"  >> iacta
